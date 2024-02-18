@@ -1,0 +1,21 @@
+/* BarChart.css */
+
+.bar-chart-card {
+    width: 500px;
+    height: 300px;
+  }
+  
+  .bar-chart-title {
+    font-size: 28px;
+  }
+  
+  .select-month {
+    width: 200px;
+  }
+  
+  @media only screen and (max-width: 944px) {
+    .bar-chart-card {
+        width: 95dvw;
+        height: 300px;
+      }
+  }

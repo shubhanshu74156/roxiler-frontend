@@ -1,0 +1,37 @@
+/* App.css */
+
+.grid-container {
+    display: flex;
+    background-color: #61b4f7c7;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  @media only screen and (max-width: 1440px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 10px;
+        background-color: #61b4f7c7;
+        padding: 10px;
+       
+      }
+    .item1 {
+        grid-row: span 2; /* Span the first item across all three columns */
+      }
+  
+  }
+
+    
+  @media only screen and (max-width: 944px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+       
+      }
+    
+  
+  }
+  
